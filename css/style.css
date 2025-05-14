@@ -1,0 +1,44 @@
+@import url("./reset.css");
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bbb;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+}
+
+.header,
+.article,
+.aside,
+.footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #8e2a7c;
+}
+
+.main {
+  background-color: #33c17c;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.article {
+  background-color: #ec1e63;
+}
+
+.aside {
+  background-color: #0b4f6c;
+}
+
+.footer {
+  background-color: #f57c00;
+}
